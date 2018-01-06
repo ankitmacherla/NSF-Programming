@@ -18,6 +18,11 @@ body {
 	background-color: #F5F5F5;
 	color: #0F1626;
 	font-family:Roboto;
+	line-height: 175%;
+}
+
+body ul, ol{
+	line-height: 175%;
 }
 
 .sidenav {
