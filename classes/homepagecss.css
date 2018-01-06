@@ -1,0 +1,41 @@
+ul{
+	color:blue;
+	font-family: verdana;
+}
+html{
+	color:green;
+}
+#address{
+	font-size:20px;
+}
+
+.special{
+	background-color: orange;
+}
+
+#htmlButton{
+	background-color: rgb(4, 39, 134);
+	color:white;
+	width:200pt;
+	height:50pt;
+	font-size:30pt;
+    border-radius: 25px;
+}
+
+#jsButton{
+	background-color: rgb(4, 60, 14);
+	color:white;
+	width:200pt;
+	height:50pt;
+	font-size:30pt;
+    border-radius: 25px;
+}
+
+#cssButton{
+	background-color: rgb(43, 39, 10);
+	color:white;
+	width:200pt;
+	height:50pt;
+	font-size:30pt;
+    border-radius: 25px;
+}

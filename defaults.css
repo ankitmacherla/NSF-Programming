@@ -1,0 +1,91 @@
+@font-face /*add Roboto to system to use as a font. */
+{
+font-family: Roboto;
+src: url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face{ /*add Roboto-Bold to system to use as a font. */
+	font-family: Roboto-Bold;
+	src: url('fonts/Roboto-Bold.ttf');
+}
+
+@font-face{ /*add Roboto-Bold to system to use as a font. */
+	font-family: Roboto-Slab;
+	src: url('fonts/RobotoSlab-Regular.ttf');
+}
+
+body {
+	background-color: #F5F5F5;
+	color: #0F1626;
+	font-family:Roboto;
+}
+
+.sidenav {
+    height: 100%;
+    width: 150pt;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    overflow-x: hidden;
+    background-color: #0F1626;
+		font-family:Roboto;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #F5F5F5;
+    display: block;
+}
+
+.sidenav a:hover {
+		background-color: #FF533D;
+}
+
+.main {
+    margin-left: 150pt;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+
+.main a:hover{
+	color:#FF533D;
+}
+
+img{
+	display: block;
+	margin:auto;
+}
+
+p{
+	font-family: "Roboto";
+}
+
+cite{
+	display: block;
+	margin:auto;
+	text-align: center;
+	font-size:10pt;
+}
+
+table {
+    font-family: Roboto;
+    border-collapse: collapse;
+}
+
+tr:nth-child(1) {
+    background-color: #AB987A;
+		color:#F5F5F5;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family:Roboto-Slab;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
