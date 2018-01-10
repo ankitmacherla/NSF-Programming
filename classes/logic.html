@@ -9,6 +9,31 @@
 	<script src="../sidebar.js"></script>
 	<div class="main">
 		<h2> Logic </h2>
+		<p> A <code>boolean</code> can have one of two values: <code>true</code> and <code>false</code>.
+			<br> When writing <code>if</code>, <code>while</code>, or <code>for</code> loops, we need something to tell when to stop the loop. This is in the form of
+			a <code>true</code> or <code>false</code>.</p>
+		<p> For example, if you wrote the following <code>if</code> statement:<br>
+		<code class="codebox">if(true){<br> //print "Hello, World"!<br>}</code><br>
+		The code would display "Hello, World!" every single time the <code>if</code> statement was checked. Similarly, if we wrote:<br>
+		<code class="codebox">if(false){<br> //print "Goodbye!"<br>}</code><br>"Goodbye" would never be printed. </br>
+		<p> When comparing two things, there are four categories we generally put the comparison in: </p>
+		<ol>
+			<li> Equal (<code>==</code>). To check if a variable <code>x</code> equals a variable <code>y</code>, we write: <code>x == y</code>. </li>
+			<li> Not equal (<code>!=</code>). To check if a variable <code>x</code> does not equal variable <code>y</code>, we write: <code>x!=y</code>.</li>
+			<li> Greater than and less than (<code>&gt;</code> and <code>&lt;</code> respectively). </li>
+			<li> Greater than or equal to. 	To check if <code>x</code> is greater than or equal to <code>y</code>, we write: <code>x &gt;= y</code>. </li>
+			<li> Less than or equal to. To check if <code>a</code> is less than or equal to <code>b</code>, we write <code>a &lt;= b</code>. </li>
+		</ol>
+		<p> What if we want to check for more than one thing? What if I want to check if a number is greater than <code>6</code>
+			and also not equal to <code>9</code>? What if I'm checking if a number is greater than <code>6</code> or less than <code>2</code>?
+		<br> We can check for many different things: </p>
+		<ul>
+			<li> Check 1 AND check 2: To check for AND, use <code>&&</code>. So, to check if <code>x</code> is greater than <code>6</code> and not equal to
+				<code>9</code>, I write <code>x > 6 && x != 9</code>. </li>
+			<li> Check 1 OR check 2: To check for OR, use <code>||</code>. To check if <code>y</code> is greater than <code>6</code> or less than <code>2</code>, I write
+				<code>y > 6 || y < 2</code>. </li>
+		</ul>
+
 	</div>
 </body>
 </html>

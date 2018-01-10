@@ -18,11 +18,17 @@ body {
 	background-color: #F5F5F5;
 	color: #0F1626;
 	font-family:Roboto;
-	line-height: 175%;
+}
+ul, ol{
+	line-height:175%;
 }
 
-body ul, ol{
-	line-height: 175%;
+a{
+	color:#162F6A;
+}
+
+code{
+	 background-color: #E6E6E6;
 }
 
 .sidenav {
@@ -36,7 +42,6 @@ body ul, ol{
     overflow-x: hidden;
     background-color: #0F1626;
 		font-family:Roboto;
-		color:#FFFFFF;
 }
 
 .sidenav a {
