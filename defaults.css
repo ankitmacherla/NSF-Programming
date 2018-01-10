@@ -28,7 +28,14 @@ a{
 }
 
 code{
-	 background-color: #000000;
+	 background-color: #E6E6E6;
+}
+
+.codebox{
+	padding: 10px;
+	color: #0F1626;
+	background-color: #E6E6E6;
+	border: #E6E6E5 1pt solid;
 }
 
 .sidenav {
