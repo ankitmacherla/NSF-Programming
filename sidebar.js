@@ -22,6 +22,7 @@ if(document.title == "NSF Programming 2017"){ //check if the current document is
     document.getElementsByClassName("sidenav")[0] = createLink("Arrays", "classes/arrays.html");
     document.getElementsByClassName("sidenav")[0] = createLink("Apps", "classes/apps.html");
     document.getElementsByClassName("sidenav")[0] = createLink("Web Apps", "classes/webapps.html");
+    document.getElementsByClassName("sidenav")[0] = createLink("Frameworks", "classes/frameworks.html");
     document.getElementsByClassName("sidenav")[0] = createLink("Tips", "classes/tips.html");
     document.getElementsByClassName("sidenav")[0] = createLink("Projects", "classes/projects.html");
 }
@@ -36,6 +37,7 @@ else{
   document.getElementsByClassName("sidenav")[0] = createLink("Arrays", "../classes/arrays.html");
   document.getElementsByClassName("sidenav")[0] = createLink("Apps", "../classes/apps.html");
   document.getElementsByClassName("sidenav")[0] = createLink("Web Apps", "../classes/webapps.html");
+  document.getElementsByClassName("sidenav")[0] = createLink("Frameworks", "../classes/frameworks.html");
   document.getElementsByClassName("sidenav")[0] = createLink("Tips", "../classes/tips.html");
   document.getElementsByClassName("sidenav")[0] = createLink("Projects", "../classes/projects.html");
 }
