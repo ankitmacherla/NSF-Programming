@@ -7,7 +7,7 @@ function createLink(title, url){
   link.title = title; //set the title of the <a>
   link.href = url; //set the href reference to the <a>
   div_sidebar.appendChild(link); //add the <a> to the sidebar copy we made earlier
-  return div_sidebar; //return the sidebar copy. 
+  return div_sidebar; //return the sidebar copy.
 }
 //below is not part of the function. It runs when the file, sidebar.js, is called.
 if(document.title == "NSF Programming 2017"){ //check if the current document is the main page by seeing if the title is "NSF Programming 2017"
